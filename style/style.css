@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.modal__modalWrapper {
+  margin: 0 auto;
+  padding: 100px 0;
+  width: 500px;
+  height: 300px;
+  background-color: #dbaa8a;
+  -webkit-box-shadow: 0px 0px 10px 10px #858484;
+          box-shadow: 0px 0px 10px 10px #858484;
+}
+
+.modal__modalBtnClose {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #db562e;
+}
+
+.modal__modalText {
+  margin: 0 auto;
+  width: 250px;
+  background-color: #d17537;
+}
+/*# sourceMappingURL=style.css.map */
