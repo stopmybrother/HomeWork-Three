@@ -207,7 +207,7 @@ for (let i = 0; i <= 15; i++) {
 	}
 }
 
-//task 20 - ready, BUT have a question
+//task 20 - ready
 
 let objTest = {
 	Vasya: 80,
@@ -228,8 +228,9 @@ let changePersentToMark = (obj) => {
 				break;
 			case obj[key] > 70:
 				objNew[key] = 3;
+				break;
 			case obj[key] > 60:
-				objNew[key] = 2; //Zina has 77%, but in object mark is 2. Don't know why ???
+				objNew[key] = 2;
 				break;
 			default:
 				objNew[key] = 1;
@@ -294,7 +295,8 @@ let checkTypeString = (arr) => {
 		typeof item === "string" ? console.log("true") : console.log(false)
 	);
 };
-checkTypeString(arrOne); //show, how many alements are "true" and how many "false"
+checkTypeString(arrOne); //show, how many alements are "true" and how many "false" 
+// НУЖЕН СЧЕТЧИК !!!
 
 //task 24 - ready
 
@@ -384,7 +386,7 @@ const getSumOfElementsInNewArr = (arrFirst, arrSecond) => {
 };
 getSumOfElementsInNewArr(arrOne, arrTwo);
 
-//task 30 - ready, BUT found in the Internet. Why is this syntax ?? Why const ??
+//task 30 - ready
 
 let strOne = "Hello world";
 const strNew = strOne
@@ -435,7 +437,7 @@ console.log(arrOne);
 
 //task 34 - NOT ready
 
-//task 35 - ready. On base of task 30.
+//task 35 - ready
 
 let numberOne = 2021;
 let sum = 0;
@@ -445,7 +447,7 @@ const numberNew = numberOne
 	.forEach((item) => (sum += +item));
 console.log(sum);
 
-//task 36 - ready. On base of task 30.
+//task 36 - ready
 
 let strOne = "limited liability company";
 const strNew = strOne
